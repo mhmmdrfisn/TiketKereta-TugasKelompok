@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6754e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  ol {
+    margin-left: 20px;
+  }
+  
+  footer {
+    background-color: #6754e2;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+   ::-webkit-scrollbar-track {
+     background-color: transparent;
+   }
+   ::-webkit-scrollbar-thumb {
+     background-color: #d6dee1;
+     border-radius: 20px;
+     border: 6px solid transparent;
+     background-clip: content-box;
+  }
+   ::-webkit-scrollbar-thumb:hover {
+     background-color: #a8bbbf;
+   }
+  

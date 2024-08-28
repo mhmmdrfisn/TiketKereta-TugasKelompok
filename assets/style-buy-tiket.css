@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  @media screen and (max-width: 768px) {
+  
+    
+     ::-webkit-scrollbar {
+      width: 20px;
+    }
+     ::-webkit-scrollbar-track {
+       background-color: transparent;
+     }
+     ::-webkit-scrollbar-thumb {
+       background-color: #d6dee1;
+       border-radius: 20px;
+       border: 6px solid transparent;
+       background-clip: content-box;
+    }
+     ::-webkit-scrollbar-thumb:hover {
+       background-color: #a8bbbf;
+     }
+    
+  }
+
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+ }
+
+ optgroup {
+    font-weight: bold;
+    color: #555;
+ }
+
+ option {
+    padding: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333;
+ }
+ 
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  form {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  label {
+    margin: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  input[type="number"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #007bff;
+  }
+  
+  
+  input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6754e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #6754e2;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #6754e2;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+ 
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6754e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #6754e2;
+  }
+  

@@ -1,0 +1,28 @@
+.tinggi {
+  min-height: 100vh;
+}
+
+.nav-link {
+font-family: Arial, sans-serif;
+color: white;
+}
+
+#bg-nav{
+background-color: #393646; 
+}
+#bg{
+background-color: #393646; 
+}
+
+
+table, thead, tr, th {
+  font-size: 13px;
+}
+
+.navbar-nav {
+margin-top: 15px;
+}
+
+.nav-item {
+margin-bottom: 7px;
+}
